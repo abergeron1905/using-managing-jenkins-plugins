@@ -1,4 +1,4 @@
-FROM sixeyed/psod-jenkins:2.204.4
+FROM jenkins/jenkins:lts
 
 # .NET Core deps
 RUN apk add --no-cache \
